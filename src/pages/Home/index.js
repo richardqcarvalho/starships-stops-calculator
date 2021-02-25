@@ -41,7 +41,7 @@ const Home = () => {
         <TouchableOpacity
           style={styles.button}
           onPress={() => navigation.navigate('Informations', { inputText })}>
-          <Text style={styles.buttonText}>Cmon, calculate it!</Text>
+          <Text style={styles.buttonText}>CALCULATE</Text>
         </TouchableOpacity>
       </View>
     </>
