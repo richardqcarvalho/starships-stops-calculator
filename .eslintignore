@@ -3,3 +3,4 @@ package.json
 build
 android
 ios
+app.json
