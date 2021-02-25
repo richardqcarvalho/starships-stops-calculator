@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import {
   StatusBar,
   Text,
@@ -24,12 +24,12 @@ const Home = () => {
         <View style={styles.header}>
           <Text style={styles.firstTextHeader}>Welcome to</Text>
           <Text style={styles.secondTextHeader}>
-            STARSHIPS STOPS CALCULATOR
+            {'STARSHIPS STOPS CALCULATOR'}
           </Text>
         </View>
         <Text style={styles.description}>
-          (if u need to know whats the best starship to travel til the other
-          side of the galaxy)
+          {`(if u need to know whats the best starship to travel til the other
+          side of the galaxy)`}
         </Text>
         <TextInput
           style={styles.input}
@@ -41,7 +41,7 @@ const Home = () => {
         <TouchableOpacity
           style={styles.button}
           onPress={() => navigation.navigate('Informations', { inputText })}>
-          <Text style={styles.buttonText}>CALCULATE</Text>
+          <Text style={styles.buttonText}>{'CALCULATE'}</Text>
         </TouchableOpacity>
       </View>
     </>
