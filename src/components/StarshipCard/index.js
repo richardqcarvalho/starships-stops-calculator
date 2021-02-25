@@ -51,7 +51,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 20,
     textAlign: 'center',
-    // marginBottom: 5,
   },
   description: {
     fontSize: 18,
