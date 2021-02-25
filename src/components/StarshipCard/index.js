@@ -38,20 +38,20 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#fff',
-    padding: 17.5,
+    padding: 25,
   },
   wrapper2: {
     width: '100%',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#fbc531',
-    padding: 17.5,
+    padding: 25,
   },
   title: {
     fontWeight: 'bold',
     fontSize: 20,
     textAlign: 'center',
-    marginBottom: 5,
+    // marginBottom: 5,
   },
   description: {
     fontSize: 18,
