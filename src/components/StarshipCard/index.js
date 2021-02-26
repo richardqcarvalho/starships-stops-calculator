@@ -26,7 +26,6 @@ const StarshipCard = ({ name, consumables, mglt, stops }) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#fbc531',
     marginBottom: 20,
     justifyContent: 'center',
     alignItems: 'center',
@@ -38,22 +37,22 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#fff',
-    padding: 25,
+    padding: 20,
   },
   wrapper2: {
     width: '100%',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#fbc531',
-    padding: 25,
+    padding: 20,
   },
   title: {
     fontWeight: 'bold',
-    fontSize: 20,
+    fontSize: 16,
     textAlign: 'center',
   },
   description: {
-    fontSize: 18,
+    fontSize: 14,
     textAlign: 'center',
   },
 });
