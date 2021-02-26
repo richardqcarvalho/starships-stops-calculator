@@ -91,10 +91,10 @@ export const StarshipController = () => {
     setLoading(true);
     const { data } = await api.get('/starships');
     for (const starship of data.results) {
-      const words = starship.consumables.split(' ');
-      starship.stops = calculator[words[1]](
+      const [consumables, consumablesUnity] = starship.consumables.split(' ');
+      starship.stops = calculator[consumablesUnity](
         megalights,
-        words[0],
+        consumables,
         starship.MGLT,
       );
     }
