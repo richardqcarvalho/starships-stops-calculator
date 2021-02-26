@@ -1,11 +1,7 @@
 import React from 'react';
-import {
-  View,
-  ActivityIndicator,
-  StyleSheet,
-  Text,
-  StatusBar,
-} from 'react-native';
+import { View, StyleSheet, Text, StatusBar } from 'react-native';
+import Lottie from 'lottie-react-native';
+import Rocket from '../../assets/rocket.json';
 
 const LoadingScreen = () => {
   return (
@@ -17,7 +13,7 @@ const LoadingScreen = () => {
       />
       <View style={styles.container}>
         <View style={styles.wrapper}>
-          <ActivityIndicator color="#000" size={50} />
+          <Lottie source={Rocket} style={styles.animation} autoPlay loop />
           <Text style={styles.text}>Travelling ang annotating...</Text>
         </View>
       </View>
@@ -36,6 +32,10 @@ const styles = StyleSheet.create({
     width: '80%',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  animation: {
+    width: 400,
+    height: 400,
   },
   text: {
     fontSize: 20,
