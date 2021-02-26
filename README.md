@@ -11,6 +11,7 @@ Este é um aplicativo que recebe um dado do usuário referente a uma unidade de 
   - React Native
   - Axios
   - React Navigation
+  - Lottie
 
 ## Como rodar a plataforma
 
