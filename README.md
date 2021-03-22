@@ -1,6 +1,20 @@
-# Starships Stops Calculator
+<h1 align="center">Starships Stops Calculator</h1>
 
-Este é um aplicativo que recebe um dado do usuário referente a uma unidade de espaço fictícia do universo Star Wars e calcula quantas paradas seriam necessárias para se fazer uma viagem com esta distância em cada nave do filme.
+<p align="center">Este é um aplicativo que recebe um dado do usuário referente a uma unidade de espaço fictícia do universo Star Wars e calcula quantas paradas seriam necessárias para se fazer uma viagem com esta distância em cada nave do filme.</p>
+
+<br>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/55627630/112002331-886b6d00-8afe-11eb-8a07-b8f19a6b5d3e.jpeg" width="30%">
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  <img src="https://user-images.githubusercontent.com/55627630/112002334-89040380-8afe-11eb-9b90-a84a682e30d8.jpeg" width="30%">
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  <img src="https://user-images.githubusercontent.com/55627630/112002336-89040380-8afe-11eb-8bb5-2f8d6fd7ed90.jpeg" width="30%">
+</p>
 
 ## Linguagem utilizada
 
